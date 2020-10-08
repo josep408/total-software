@@ -1,0 +1,63 @@
+
+body{
+	background-color: black;
+	color: white;
+	font-size: 13px;
+}
+
+
+header, nav,{
+	text-align:center;
+}
+
+nav a {
+	padding: 15px;
+	padding-bottom: 4px;
+	font-size: 1.8em;
+	text-decoration: none;
+	color: gray;
+}
+nav a:hover{
+	border-bottom: 2px;
+	font-size: 2em;
+	transition: .9s;
+}
+nav a:active{
+	background-color:pink;
+	color:pink;
+	border-bottom: 2px;
+	font-size: 2em;
+	transition: .9s;
+}
+
+nav a:link{
+	color:#0e5615; /*darkgreen*/
+	border-bottom: 2px;
+	font-size: 2em;
+	transition: .9s;
+}
+nav a:visited{
+	background-color: pink;
+	border-bottom: 2px;
+	font-size: 2em;
+	transition: .9s;
+}
+
+.new1{
+	border: 1px solid black;
+	
+}
+
+
+footer{
+	font-family: "Gill Sans", "Gill Sans MT", "Myraid Pro", "DejaVu Sans Condensed", Arial, sans-serif;
+	font-variant: normal;
+
+	font-size: 0.9em;
+	padding: 20px;
+	text-align: right;
+	text-decoration: underline;
+	border-top: 1px solid #ffffff;
+	background-color: #02ceb6;
+	 
+}

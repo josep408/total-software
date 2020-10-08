@@ -1,0 +1,35 @@
+{
+  "name": "total-software",
+  "version": "1.0.0",
+  "description": "total software",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josep408/total-software.git"
+  },
+  "keywords": [
+    "total",
+    "software",
+    "investment"
+  ],
+  "author": "Jose Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josep408/total-software/issues"
+  },
+  "homepage": "https://github.com/josep408/total-software#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie": "^0.4.1",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "method-override": "^3.0.0",
+    "mysql": "^2.18.1",
+    "save": "^2.4.0"
+  }
+}
