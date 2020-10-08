@@ -1,53 +1,23 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="/css/styles.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    </head>
-<body>
-               <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <ul class="nav navbar-nav">
-      
-      
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="/login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
-  </div>
-</nav>
-       <h1>Main Page</h1>      
-    <img src="https://mybusinesstrainingschool.com/wp-content/uploads/2017/09/food1.jpg" alt="restaurant" class="center">   
- <body>
-        <form action="/viewrestaurants" method="get" style="text-align:center;">
-            Restaurant:
-            <select name="restaurant">
-                <option value="select" > Select One </option>
-                <% restaurant.forEach(function(i){ %>
-                    <option value="<%=i.name%>"><%=i.name%> </option>
-                <% }); %>
-            </select>
-            Category: 
-            <select name="category">
-                <option value="select" > Select One </option>
-                <% categories.forEach(function(i){ %>
-                    <option value="<%=i%>"> <%=i%>  </option>
-                <% }); %>
-            </select>
-            Pickup:
-            <select name="pickup">
-                <option value="Y"> YES </option>
-                <option value="N"> NO </option>
-            </select>
-            Delivery:
-            <select name="delivery">
-                <option value="Y"> YES </option>
-                <option value="N"> NO </option>
-            </select>
-            <button type="submit" name="submit" class="btn btn-info btn-md">Submit</button>
-        </form>
-            <br><br></br><br></br><br></br><br></br>
-        </body>
-</html>
+<%- include('partials/header.ejs') %>
+  
+        <div id="wrapper">
+        <header>
+        <h1> The Revolution of INvestments</h1>
+        
+        </header>
+        <h2>Great Investments</h2>
+            <br /> <br />
+            
+            <figure id="me">
+                <img src="/img/blank.jpg"  alt="Picture of quantum computer">
+            </figure>
+            <div id="welcome">
+                <div id="sidebar">
+                Total Software<br />
+                
+                <p>This is an overview of the new and revolutionary software that hWill help you with creating the new experince for your future investments</p>
+                
+        </div>
+        
+        
+     <%- include('partials/footer.ejs') %>
