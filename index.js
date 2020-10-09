@@ -109,10 +109,10 @@ app.get('*', function(req, res){
 });
 
 // test server listener
-// app.listen("8081", "127.0.0.1", function(){
-// 	console.log("Express server is running ... ");
-// });
-
-app.listen(process.env.PORT || 3000, function(){
-    console.log('Your Server Started ...');
+app.listen("8081", "127.0.0.1", function(){
+	console.log("Express server is running ... ");
 });
+
+// app.listen(process.env.PORT || 3000, function(){
+//     console.log('Your Server Started ...');
+// });
